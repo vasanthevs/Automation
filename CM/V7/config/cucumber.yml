@@ -1,0 +1,13 @@
+default: -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\Test_Result_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+p1: -t @p1 -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\Test_Result_P1_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+p2: -t @p2 -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\Test_Result_P2_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+p3: -t @p3 -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\Test_Result_P3_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+smoke: -t @smoke -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\Prod_Smoke_Result_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+Ssmoke: -t @smoke -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\Stage_Smoke_Result_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+Tsmoke: -t @smoke -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\Test_Smoke_Result_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html

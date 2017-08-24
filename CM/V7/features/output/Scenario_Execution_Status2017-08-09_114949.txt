@@ -1,0 +1,29 @@
+171.29|Copy to different Fileroom|failed
+140.05|Addfileroom|passed
+121.82|Copy watermark|passed
+91.54|Activate User|passed
+57.47|Editrow|failed
+57.28|Create Watemark|failed
+56.97|Delete_doc|failed
+56.88|copy to same fileroom|failed
+55.68|Enable Watermark|failed
+47.42|Editsecurity_publish|failed
+47.34|Deactivate user|failed
+47.06|Editsecurity_Assign|failed
+46.93|Create Date UDF|failed
+45.91|copy to same fileroom property history|failed
+45.32|Create a Security role|failed
+44.85|Delete watermark|failed
+44.85|Delete  fileroom|failed
+28.71|Copy to different Fileroom property history|failed
+20.07|Move to same fileroom|failed
+20.07|Move different fileroom|failed
+10.07|Create Folder|failed
+10.07|User history Active users|failed
+10.07|Create Placeholder|failed
+10.07|Viewer_Doc|failed
+10.07|Move different fileroom property history|failed
+10.07|Upload documents to the fileroom|failed
+10.07|User history Deactive users|failed
+10.06|Move to same fileroom property history|failed
+10.05|last execution|failed

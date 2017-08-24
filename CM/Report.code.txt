@@ -1,0 +1,58 @@
+Local
+
+cucumber -t @p2 run=local env=prod browser=chrome -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\-<%= Time.now.strftime("%d-%b-%Y_%H%M")%>.html
+cucumber -t @p2 run=local env=stage browser=chrome -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\vas1.html
+cucumber -t @smoke run=local env=prod browser=chrome -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\vas12.html
+
+Timestamp:
+
+cucumber -t @smoke run=local env=prod browser=chrome -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\smoke.html
+
+==================
+
+sauce lab
+
+cucumber -t @p3 run=sauce env=prod browser=chrome
+
+===============
+
+VM 
+
+cucumber -t @p2 run=local env=prod browser=chrome -f html -o C:\V7\CM\V7\features\output\vas222.html
+
+===================
+
+C:\Users\108609\Documents\vasanth_automation\CM
+
+===============
+
+Parallel execution
+
+bundle exec parallel_cucumber features -n 3 -o '-t @p2 run=local browser=chrome'
+bundle exec parallel_cucumber features -n 2 -o '-t @p3 run=sauce browser=chrome'
+
+
+bundle exec parallel_cucumber features -n 10 -o '-t @p2 run=local browser=chrome -f html -o C:\V7\CM\V7\features\output\vas222.html
+
+========
+
+V6
+
+ugfull: -t @UG-Full -t ~@wip -f html -o C:/code/ma2/DS6_Project_Trail1/features/test_result_report/UG_Full_TestResult-<%= Time.now.strftime("%d-%b-%Y_%H%M")%>.html 
+
+======================
+
+http://10.231.173.76:8080/
+
+java -jar jenkins.war
+
+
+How to install jenkins locally
+
+https://www.youtube.com/watch?v=3_uyF2x0PB0
+
+Github
+
+https://www.youtube.com/user/edurekaIN/videos
+
+

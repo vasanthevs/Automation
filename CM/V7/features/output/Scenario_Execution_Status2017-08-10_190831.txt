@@ -1,0 +1,5 @@
+61.74|Create Folder|passed
+54.84|Successful Login|passed
+36.92|Upload documents to the fileroom|passed
+29.81|Addfileroom|passed
+26.63|Create Placeholder|passed
